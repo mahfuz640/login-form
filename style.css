@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: linear-gradient(#3e7ae9, #243b55);
+    background: linear-gradient(#141e30, #243b55);
 }
 
 .login-box {
@@ -20,6 +20,13 @@ body {
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
     border-radius: 10px;
+}
+
+.login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
 }
 
 .login-box .user-box {
@@ -49,12 +56,12 @@ body {
     transition: .5s;
 }
 
-.login-box .user-box input :focus~label,
-.login-box .user-box input :valid~label {
+.login-box .user-box input:focus~label,
+.login-box .user-box input:valid~label {
     top: -20px;
     left: 0;
     color: #03e9f4;
-    font-size: size 12px;
+    font-size: 12px;
 }
 
 .login-box form a {
@@ -66,16 +73,16 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     overflow: hidden;
-    transition: .5;
+    transition: .5s;
     margin-top: 40px;
-    letter-spacing: 4px;
+    letter-spacing: 4px
 }
 
 .login-box a:hover {
     background: #03e9f4;
     color: #fff;
     border-radius: 5px;
-    box-shadow: 0 0 5px #03e9f4, 0 0 5px #03e9f4, 0 0 5px #03e9f4, 0 0 5px #03e9f4;
+    box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
 }
 
 .login-box a span {
@@ -109,7 +116,7 @@ body {
     height: 100%;
     background: linear-gradient(180deg, transparent, #03e9f4);
     animation: btn-anim2 1s linear infinite;
-    animation-delay: .25s;
+    animation-delay: .25s
 }
 
 @keyframes btn-anim2 {
@@ -123,13 +130,13 @@ body {
 }
 
 .login-box a span:nth-child(3) {
-    top: 0;
+    bottom: 0;
     right: -100%;
     width: 100%;
     height: 2px;
     background: linear-gradient(270deg, transparent, #03e9f4);
     animation: btn-anim3 1s linear infinite;
-    animation-delay: .5s;
+    animation-delay: .5s
 }
 
 @keyframes btn-anim3 {
@@ -143,13 +150,13 @@ body {
 }
 
 .login-box a span:nth-child(4) {
-    top: -100%;
-    right: 0;
+    bottom: -100%;
+    left: 0;
     width: 2px;
     height: 100%;
     background: linear-gradient(360deg, transparent, #03e9f4);
     animation: btn-anim4 1s linear infinite;
-    animation-delay: .75s;
+    animation-delay: .75s
 }
 
 @keyframes btn-anim4 {
