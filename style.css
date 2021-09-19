@@ -71,9 +71,9 @@ body {
     letter-spacing: 4px;
 }
 
-.login-box a: hove {
-    background: #03e9f4;
-    color: #fff;
+.login-box a:hover {
+    background: ;
+    color: ;
     border-radius: 5px;
-    border-shadow: 0 0 5px #03e9f4, 0 0 5px #03e9f4, 0 0 5px #03e9f4, 0 0 5px #03e9f4;
+    box-shadow: 0 0 5px #03e9f4, 0 0 5px #03e9f4, 0 0 5px #03e9f4, 0 0 5px #03e9f4;
 }
